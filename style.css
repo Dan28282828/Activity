@@ -297,12 +297,13 @@ transition: 0.3s ease;
 
 .footer-section {
     padding: 20px 0;
-    background: #252525;
+    background: #252525;justify-content: space-between;
 }
 
-.footer-section .select-content{
+.footer-section .section-cotent{
     display:flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-section :where(.copyright-text, .social-link, .policy-link){
@@ -319,8 +320,7 @@ transition: 0.3s ease;
     font-size: large;
 }
 
-.footer-section .social-link-list .social-link:hover
-.footer-section .policy-text .policy-link:hover {
+.footer-section .social-link-list .social-link:hover {
     color: #f3961c;
 }
 
